@@ -1,0 +1,37 @@
+/* shared style */
+
+.inter-primary {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.raleway-secondary {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+.primary-color{
+    color: #4E47FF;
+    
+}
+.btn-primary{
+    color:#FFFFFF ;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 36px;
+
+}
+/* nav styles */
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+
+.nav-title{
+    font-size:35px;
+}
