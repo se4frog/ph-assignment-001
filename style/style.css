@@ -3,7 +3,7 @@
 .inter-primary {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 900;
+  /* font-weight: 900; */
   font-style: normal;
 }
 
@@ -30,8 +30,75 @@
     display: flex;
     justify-content: space-between;
     margin: 50px 150px;
+    
 }
 
 .nav-title{
     font-size:35px;
+    font-weight: 900;
+}
+
+/* hero-section style */
+.hero-section{
+    background-image: url('../Assets/Hero-bg.png');
+    background-repeat:no-repeat;
+    text-align: center;
+    margin: 309px 267.5px 159px;
+}
+.hero-text{
+    font-size: 65px;
+}
+/* action style */
+.action{ 
+    display:flex;
+    justify-content: space-around;
+    margin: 116px 159px 116px 141px;
+    gap: 220px;
+}
+.action-text{
+    padding: 62.5px 0px;
+    height: 203px;
+    width: 517px;
+
+}
+.action-title{
+    font-size: 42px;
+
+
+}
+.action-description{
+    font-size: 24px;
+    font-weight: bold;
+    color: #2524327c;
+}
+
+.action-image{
+    height: 328px;
+    width: 403px;
+    border-radius: 48px;
+}
+/* productive users section style */
+.productive-users{
+    text-align: center;
+     margin: 116px 159px 137px 141px;
+
+}
+.productive-users-title{
+    font-size: 38px;
+}
+.productive-users-data{
+    display: flex;
+    gap:158px ;
+    justify-content:center;
+
+}
+.user-data{
+    font-size: 80px;
+    font-weight: bold;
+}
+.user-subtitle{
+    font-size: 20px;
+    font-weight: 400;
+    color: #00000080;
+
 }
