@@ -191,4 +191,18 @@ input[type="submit"] {
   
 }
 
+.feedbacks-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 150px;
+}
+
+.user-info{
+    display:flex;
+    gap: 16px;
+}
+.feedbacks img{
+    border-radius: 40px;
+}
+
 
