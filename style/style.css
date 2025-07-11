@@ -14,8 +14,10 @@
   font-style: normal;
 }
 .primary-color{
-    color: #4E47FF;
-    
+    color: #4E47FF;   
+}
+.color-02{
+    color: #8987A1;
 }
 .btn-primary{
     color:#FFFFFF ;
@@ -23,8 +25,12 @@
     border: none;
     border-radius: 5px;
     padding: 12px 36px;
+    cursor: pointer;
+}
+.btn-primary:hover{ background-color: rgba(0, 119, 255, 0.527);
 
 }
+
 /* nav styles */
 .nav-container{
     display: flex;
@@ -102,3 +108,87 @@
     color: #00000080;
 
 }
+/* form  style */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 115px;
+  padding: 50px 150px;
+
+}
+
+.form-title {
+  font-size: 90px;
+  max-width: 400px;
+}
+
+.form {
+  
+  padding: 20px;
+  max-width: 500px;
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 16px;
+  font-size: 16px;
+  border:none;
+  margin-bottom: 20px;
+}
+
+textarea {
+  height: 130px;
+}
+
+input[type="submit"] {
+  width: 100%;
+}
+
+/* footer styles */
+
+.footer-container {
+  text-align: center;
+  padding:60px 20px;
+}
+
+.footer-title {
+  font-size: 90px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.footer-subtitle {
+  font-size: 16px;
+  margin-bottom: 20px;
+   max-width: 600px;
+  margin: 0 auto 20px auto;
+}
+
+.footer-links ul {
+  list-style: none;
+  display: inline-flex;
+  gap: 48px;
+
+}
+
+
+.footer-links a {
+  text-decoration: none;
+  color: #8987A1;
+  font-weight: 600;
+  font-size: 16px;
+  
+}
+
+
